@@ -21,8 +21,7 @@
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    position:relative;
-    left:280px;
+    position:static;
   }
 
   .button2:hover {

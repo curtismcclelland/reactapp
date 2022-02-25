@@ -15,6 +15,7 @@ import {
   Post,
   Login,
   Profile,
+  Signup,
 } from "./components";
 
 ReactDOM.render(
@@ -25,6 +26,7 @@ ReactDOM.render(
       <Route path="/about" element={<About />} />
       <Route path="/profile" element={<Profile />} />
       <Route path ="/login" element = {<Login />} />
+      <Route path ="/signup" element = {<Signup />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />}>
       <Route path="" element={<Posts />} />

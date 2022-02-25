@@ -29,6 +29,10 @@ function About() {
                     
             </div>
         </div>
+        <NavLink className="nav-link" to="/">
+                  Home
+                  <span className="sr-only">(current)</span>
+                </NavLink>
     </div>
   );
 }
